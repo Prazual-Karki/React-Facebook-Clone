@@ -1,0 +1,97 @@
+body {
+   background-color: #f5f7fa; 
+}
+.lheader {
+    float: left;
+    clear: none;
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 13%;
+    
+}
+.lform {
+    float: left;
+    clear: none;
+    width: 28%;
+    margin-top: 10%;
+    margin-left: 3%;
+    justify-content: center;
+    
+}
+.lform > form{
+  
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 9px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#email, #password{
+    width: 95%;
+    height: 43px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #b4bfbf;
+    box-shadow: 0 0.5px 1px 0 rgba(0,0,0,0.2) inset;
+    font-size: large;
+    padding-left: 3%;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #287be8;
+}
+
+::placeholder{
+    font-size: large;
+    opacity: 0.7;
+}
+#login{
+    /* #166fe5 */
+    background-color: #287be8;
+    font-size: 20px;
+    color: white;
+    width: 95%;
+    height: 47px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#create{
+    width: 53%;
+    height: 47px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #25ba1a;
+    cursor: pointer;
+
+}
+#login:hover{
+    background-color: #1f6dd4;
+}
+#create:hover{
+    background-color: #1cb111;
+}
+@media only screen and (max-width: 900px) {
+    .lform,.lheader {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+ }
+ @media only screen and (max-width: 900px) {
+    #lastpara {
+      display: none;
+      
+    }
+ }
+

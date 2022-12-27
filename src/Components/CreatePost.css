@@ -1,0 +1,45 @@
+.createPost{
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+    padding: 10px 10px 3px 15px;
+    border-radius: 8px;
+    width: 85%;
+    margin-left: 6%;
+    margin-top: 3%;
+    background-color: white;
+}
+.createPost a{
+    text-decoration: none;
+    color: #5c5959;
+    padding: 10px;
+    font-weight: 500;
+    /* vertical-align: middle; */
+    line-height: 50px;
+    
+}
+.createIcon{
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 50px;
+    
+}
+
+.createPost a:hover{
+    background-color: #f3f6f4;
+    border-radius: 10px;
+    /* color: #b0b069; */
+
+}
+
+@media screen and (max-width: 450px) {
+    .createPost{
+        width: 100%;
+        margin: 1% 0%;
+    }
+    .createPost input{
+        height: 100%;
+        width: 20%;
+    }
+    
+        
+    }
+  

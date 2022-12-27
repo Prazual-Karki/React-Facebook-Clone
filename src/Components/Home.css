@@ -1,0 +1,19 @@
+.home::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.home{
+    float: left;
+    padding: 2% 5% 0% 5%;
+    overflow: auto;
+    height: 519px;
+    background-color: #f3f6f4;
+}
+@media screen and (max-width: 450px) {
+    .home{
+        padding: 0%;
+        height: 100%;
+        width: 100%;
+
+    }
+  }

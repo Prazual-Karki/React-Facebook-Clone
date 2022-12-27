@@ -1,0 +1,64 @@
+.contact{
+    float: left;
+    width: 20%;
+    
+    background-color: #f3f6f4;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    height: 519px;
+    overflow: hidden;
+}
+.contact::-webkit-scrollbar{
+    width: 8px;
+    
+}
+.contact::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #9fa4a0;
+}
+
+.contact:hover{
+    overflow: auto;
+}
+.cHead{
+    display: flex;
+    color: #5c5858;
+}
+.cHead p{
+    font-weight: 600;
+    font-size: large;
+    line-height: 30px;
+    margin-right: 22%;
+}
+.cIcon{
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 60px;
+    padding: 0.6em 0.6em;
+
+}
+.cIcon:hover{
+    background-color: #d8ded8;
+}
+.contact a {
+    display: block;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    
+  }
+  .contact a:hover {
+    background-color: #e6eae7;
+    color: black;
+    border-radius: 8px;
+    
+  }
+  @media screen and (max-width: 450px) {
+    .contact{
+        display: none;
+    }
+  }

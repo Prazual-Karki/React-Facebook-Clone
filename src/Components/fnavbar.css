@@ -1,0 +1,42 @@
+.centerIcon{
+    font-size: 22px;
+    padding: 13px 41px;
+    /* padding: ; */
+}
+.centerIcon:hover{
+    
+    background-color: #edefed;
+    border-radius: 10px;
+
+}
+.rightSideIcon{
+    margin-top: 15%;
+    display: block;
+    border-radius: 60px;
+    padding: 0.7em 0.8em;
+    background-color: #edefed;
+    color: black;
+
+}
+.rightSideIcon:hover{
+    background-color: #c9cec9;
+}
+
+#facebook{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    #facebook{
+        display: block;
+        color: #287be8;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    img{
+        display: none;
+    }
+    
+    
+
+  }

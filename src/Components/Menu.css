@@ -1,0 +1,79 @@
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f3f6f4;
+    height: 519px;
+    padding-top: 1%;
+    overflow: hidden;
+    float: left;
+  }
+  .sidebar::-webkit-scrollbar{
+    width: 8px;
+    
+}
+.sidebar::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #9fa4a0;
+}
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .menuIcon{
+    color: #448ff0;
+    /* color: #287be8; */
+    
+  }
+
+  .sidebar:hover{
+    overflow: auto;
+    
+  }
+ 
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #e6eae7;
+    color: black;
+    
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 270px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  .sidebar p{
+    font-size: small;
+    margin-left: 5%;
+    color: #5b5e5c;
+    font-weight: 450;
+  }
+  
+  /* On screens that are less than 700px wide */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 450px, sidebar will be hidden */
+  @media screen and (max-width: 450px) {
+    .sidebar{
+        display: none;
+    }
+  }
+  

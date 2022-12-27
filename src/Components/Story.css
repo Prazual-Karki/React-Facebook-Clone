@@ -1,0 +1,42 @@
+.story {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 200px;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 9px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 0px;
+    filter: brightness(0.9);
+    background-color: white;
+  }
+  
+
+  .story:hover {
+    transform: scale(1.05);
+  }
+  .profileImg {
+    margin: 10px;
+    border: 4px solid #2e81f4;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+  .story h6 {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: #fff;
+    
+  }
+  @media screen and (max-width: 450px) {
+    .story h6{
+      left: 0%;
+    }
+    
+        
+    }
